@@ -1,0 +1,62 @@
+.navbarHeader{
+    padding-left: 45px;
+}
+
+.DropdownBody{
+    background-color: darkcyan;
+    border:solid 1px black;
+    padding-top: 25px;
+    padding-right: -100px;
+    
+}
+
+.backgroundHeader{
+    background-color: lightseagreen;
+    
+}
+
+.logo{
+    margin-right: 100px;
+}
+
+.navbarLink{
+    padding: 5px;
+}
+
+.dropdown{
+    padding: 3px;
+}
+
+.separadorBoton{
+    margin-right: 30px;
+}
+
+.carrusel{
+    max-height: max-content;
+}
+
+.contenedorCarrusel{
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.textoBotonps5{
+    background-color: darkcyan;
+    border-color: black;   
+}
+
+.textoBotonxbox{
+    background-color: rgb(1, 104, 53);
+    border-color: black;  
+}
+
+.textoBotonswitch{
+    background-color: rgb(202, 40, 40);
+    border-color: black;  
+}
+
+.textoH1Carrusel{
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: solid wavy;
+}
