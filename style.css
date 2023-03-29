@@ -6,7 +6,6 @@
     background-color: darkcyan;
     border:solid 1px black;
     padding-top: 25px;
-    padding-right: -100px;
     
 }
 
@@ -27,8 +26,14 @@
     padding: 3px;
 }
 
-.separadorBoton{
+.separadorBoton1{
     margin-right: 30px;
+    margin-bottom: 15px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+ 
+
 }
 
 .carrusel{
@@ -52,7 +57,7 @@
 
 .textoBotonswitch{
     background-color: rgb(202, 40, 40);
-    border-color: black;  
+    border-color: black; 
 }
 
 .textoH1Carrusel{
@@ -60,3 +65,5 @@
     padding-top: 20px;
     text-decoration: solid wavy;
 }
+
+
