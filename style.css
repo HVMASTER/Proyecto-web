@@ -5,7 +5,6 @@
 .DropdownBody{
     background-color: darkcyan;
     border:solid 1px black;
-    padding-top: 25px;
     
 }
 
@@ -23,7 +22,8 @@
 }
 
 .dropdown{
-    padding: 3px;
+    padding-top: 20px;
+    margin: 0px;
 }
 
 .separadorBoton1{
@@ -41,7 +41,7 @@
 }
 
 .contenedorCarrusel{
-    padding-top: 20px;
+    padding-top: 0px;
     margin-bottom: 50px;
 }
 
@@ -66,4 +66,48 @@
     text-decoration: solid wavy;
 }
 
+.contenedorLogin{
+    border-style: outset;
+    border-color: dimgrey;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 500px;
+    background-color: darkcyan;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    overflow: hidden;
+    text-shadow: 2px 2px 5px;
+}
 
+#Login{
+    text-align: center;
+}
+
+#pass{
+    text-align: center;
+}
+
+.alingText{
+    margin-right: 5px;
+}
+
+.modal-body{
+    padding: 0px;
+
+}
+
+.separadorBoton2{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    margin-left: 650px;
+}
+
+#linkOficiales{
+    padding-top: 5px;
+    margin: 0px;
+}
