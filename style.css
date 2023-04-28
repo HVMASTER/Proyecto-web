@@ -142,6 +142,7 @@
 .container-fluid{
     border-style: groove;
     border-bottom: 50%;
+    background-color: white;
 }
 
 .estiloCarta{
@@ -179,8 +180,10 @@
 
 .container{
     background-color: lightseagreen;
+    border: 2px solid black;
     margin: 0;
     padding: 0;
+
 }
 
 .h2Categoria{
@@ -239,7 +242,7 @@
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     background-color: #20b2aa;
     padding-left: 5%;
     padding-right: 5%;
@@ -250,6 +253,12 @@
     height: auto;
 }
 
+.reduccionImagen2{
+    width: 20%;
+    height: auto;
+    margin: 2%;
+}
+
 .tamañoCardFooter{
     width: 25%;
     height: auto;
@@ -258,4 +267,36 @@
     color: white;
 }
 
+.contenedorFinalFooter{
+    position: absolute;
+    background-color: darkcyan;
+    
+}
+
+.textFinal1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 2px 0px darkgray, 4px 4px 0px black ;
+}
+
+.imgFinal{
+    display: inline-block;
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin-left: 20%; 
+}
+
+.contenedorCopyright{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
 
