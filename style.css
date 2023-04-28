@@ -147,6 +147,8 @@
 .estiloCarta{
     width: 20%;
     height: auto;
+    margin: 1%;
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 90%;
     color: black;
@@ -155,16 +157,24 @@
     display: inline-block;
     display: flex;
     background-color: darkcyan;
+    box-shadow: 0 0 20px;
 }
+
+
 
 .estiloIcono{
     background-size: cover;
     background-position: center;
+    width: auto;
+    height: auto;
 }
 
 .contenedorCateg{
     display: inline-block;
     display: flex;
+    background-color: lightseagreen;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .container{
@@ -179,6 +189,7 @@
     padding-bottom: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    text-decoration: underline;
     color: black;
 }
 
