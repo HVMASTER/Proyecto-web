@@ -234,4 +234,28 @@
     box-shadow: 0px 0px 35px;
 }
 
+.contenedorEnlaces{
+    display: inline-block;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #20b2aa;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.reduccionImagen{
+    width: 30%;
+    height: auto;
+}
+
+.tamañoCardFooter{
+    width: 25%;
+    height: auto;
+    text-align: left;
+    background-color: #20b2aa;
+    color: white;
+}
+
 
