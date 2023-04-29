@@ -27,8 +27,12 @@
 }
 
 .contenedorBotones{
+    width: 90%;
+    height: auto;
     margin-left: 5%;
     margin-right: 5%;
+    display: inline-block;
+    display: flex;
 }
 
 .separadorBoton1{
@@ -63,7 +67,8 @@
 
 .contenedorCarrusel{
     padding-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 10%;
+    
 }
 
 .textoBotonps5{
@@ -86,6 +91,24 @@
     padding-top: 20px;
     text-decoration: solid wavy;
 }
+
+.TamañoFlecha{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    width: 10%;
+    height: 10%;
+    transform: translate(250%, 5%);
+    justify-content: flex-end;
+}
+
+.contenedorBot2{
+    position: relative;
+    z-index: 2;
+    width: 45%;
+    height: auto;
+}
+
 
 .contenedorLogin{
     border-style: outset;
@@ -176,6 +199,11 @@
     background-color: lightseagreen;
     padding-left: 5%;
     padding-right: 5%;
+    transition: transform 0.3s;
+}
+
+.contenedorCateg:hover{
+    transform: scale(1.05);
 }
 
 .container{
@@ -254,6 +282,11 @@
     background-color: #20b2aa;
     padding-left: 5%;
     padding-right: 5%;
+    transition: transform 0.3s;
+}
+
+.contenedorEnlaces:hover{
+    transform: scale(1.05);
 }
 
 .reduccionImagen{
