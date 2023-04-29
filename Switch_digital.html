@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
       <link rel="stylesheet" href="style.css">
-  <title>ENEXX - Switch Digital</title> 
+  <title>ENEXX - PS5</title> 
+
   <header class="backgroundHeader">        
     <div class="navbarHeader">
         <div class="row col-12">
@@ -55,54 +56,62 @@
   </header>
 </head>
 <body class="fondo">
+  
 
     <div class="DropdownBody">
-        <div class="row col-12">
-              <div class="dropdown row col-12">
-                <div class="btn-group">
-                  <div class="separadorBoton1">
-                    <button type="button" class="btn btn-info dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="false">
-                      Ps5
-                    </button>
-                      <div class="dropdown-menu textoBotonps5">
-                        <a class="dropdown-item" href="ps5.html">Juegos fisicos</a>
-                        <a class="dropdown-item" href="ps5digital.html">Juegos digitales</a>
-                        <a class="dropdown-item" href="ps5dlc.html">DLC</a>
-                        
-                      </div>
-                  </div>
+      <div class="contenedorBotones"> 
+        <div class="contenedorBot2">
+          <div class="btn-group">
+            <div class="separadorBoton1">
+              <button type="button" class="btn btn-info dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="false">
+                Ps5
+              </button>
+                <div class="dropdown-menu textoBotonps5">
+                  <a class="dropdown-item" href="ps5.html">Juegos fisicos</a>
+                  <a class="dropdown-item" href="ps5digital.html">Juegos digitales</a>
+                  <a class="dropdown-item" href="ps5dlc.html">DLC</a>
                 </div>
-                <div class="btn-group">
-                  <div class="separadorBoton1">
-                    <button type="button" class="btn btn-success dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="false">
-                      Xbox
-                    </button>
-                    <div class="dropdown-menu textoBotonxbox">
-                      <a class="dropdown-item" href="xbox_fisicos.html">Juegos fisicos</a>
-                      <a class="dropdown-item" href="xbox_digital.html">Juegos digitales</a>
-                      <a class="dropdown-item" href="xbox_dlc.html">DLC</a>
-                      
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="btn-group">
+            <div class="separadorBoton1">
+              <button type="button" class="btn btn-success dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="false">
+                Xbox
+              </button>
+              <div class="dropdown-menu textoBotonxbox">
+                <a class="dropdown-item" href="xbox_fisicos.html">Juegos fisicos</a>
+                <a class="dropdown-item" href="#">Juegos digitales</a>
+                <a class="dropdown-item" href="#">DLC</a>
+              </div>
+            </div>
+          </div>
+          <div class="btn-group">
+              <div class="separadorBoton1">
+                <button type="button" class="btn btn-danger dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="true">
+                  Nintendo switch
+                </button>
+                <div class="dropdown-menu textoBotonswitch">
+                  <a class="dropdown-item" href="Switch.html">Juegos fisicos</a>
+                  <a class="dropdown-item" href="#">Juegos digitales</a>
+                  <a class="dropdown-item" href="#">DLC</a>
                 </div>
-                <div class="btn-group">
-                    <div class="separadorBoton1">
-                      <button type="button" class="btn btn-danger dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="true">
-                        Nintendo switch
-                      </button>
-                      <div class="dropdown-menu textoBotonswitch">
-                        <a class="dropdown-item" href="Switch.html">Juegos fisicos</a>
-                        <a class="dropdown-item" href="Switch_digital.html">Juegos digitales</a>
-                        <a class="dropdown-item" href="Switch_dlc.html">DLC</a>
-                        
-                      </div>
-                    </div>
-                </div>
-                <!--<div class="separadorBoton2">
-                  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#staticBackdrop">
-                    Inicia sesion
-                  </button>
-                </div>-->
+              </div>
+          </div>
+        </div>
+        <div class="TamañoFlecha">
+          <img src="img/index/Flecha azul.gif" alt="">
+        
+        <div class="btn-group">
+          <div class="contenedorBtnLogin">
+            <div class="separadorBotonLogin">
+              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#staticBackdrop">
+                Inicia sesion
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
                                   <!-- Modal -->
                                   <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                     <div class="modal-dialog">
@@ -127,13 +136,11 @@
               
     </div>
   </div>
-
   <!---filtro-->
         <div class="productos">
             <section class="contenedorFiltro d-none d-sm-none d-md-block" >
               <div class="container">
                 <h5>Disponibilidad</h5>
-                
                     <input type="checkbox" name="filtro_disp" id="disponible">
                     <label for="disponible">Disponible</label><br>
                     <input type="checkbox" name="filtro_disp" id="no_disponible">
@@ -179,99 +186,97 @@
             </section>
             <!--Contenedores de los juegos-->
                 <section class="contenedorJuegos">
-                  <div class="card">
-                    <img src="img/switch/mairoKart.jpg" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">Mario Kart 8 Deluxe</h5>
-                      <p class="card-text">$26.990</p>
-                      <div class="ajusteBoton">
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                    <div class="card">
+                        <img src="img/switch/mairoKart.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Mario Kart 8 Deluxe</h5>
+                          <p class="card-text">$26.990</p>
+                          <div class="ajusteBoton">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                    
-                  <div class="card">
-                    <img src="img/switch/SSBU.jpg" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">Super Smash Bros. Ultimate</h5>
-                      <p class="card-text">$29.990</p>
-                      <div class="ajusteBoton">
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        
+                      <div class="card">
+                        <img src="img/switch/SSBU.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Super Smash Bros. Ultimate</h5>
+                          <p class="card-text">$29.990</p>
+                          <div class="ajusteBoton">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                    
-                  <div class="card">
-                    <img src="img/switch/MarioStrikers.jpg" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">Mario Strikers Battle League</h5>
-                      <p class="card-text">$24.990</p>
-                      <div class="ajusteBoton">
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        
+                      <div class="card">
+                        <img src="img/switch/MarioStrikers.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Mario Strikers Battle League</h5>
+                          <p class="card-text">$24.990</p>
+                          <div class="ajusteBoton">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                    
-                  <div class="card">
-                    <img src="img/switch/pokemonScarlet.jpg" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">Pokémon Scarlet</h5>
-                      <p class="card-text">$35.990</p>
-                      <div class="ajusteBoton">
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        
+                      <div class="card">
+                        <img src="img/switch/pokemonScarlet.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Pokémon Scarlet</h5>
+                          <p class="card-text">$35.990</p>
+                          <div class="ajusteBoton">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                    
-                  <div class="card">
-                    <img src="img/switch/terraria.jpg" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">Terraria</h5>
-                      <p class="card-text">$9.990</p>
-                      <div class="ajusteBoton">
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        
+                      <div class="card">
+                        <img src="img/switch/terraria.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Terraria</h5>
+                          <p class="card-text">$9.990</p>
+                          <div class="ajusteBoton">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                    
-                  <div class="card">
-                    <img src="img/switch/HollowKnight.jpg" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">Hollow Knight</h5>
-                      <p class="card-text">$11.990</p>
-                      <div class="ajusteBoton">
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        
+                      <div class="card">
+                        <img src="img/switch/HollowKnight.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Hollow Knight</h5>
+                          <p class="card-text">$11.990</p>
+                          <div class="ajusteBoton">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                    
-                  <div class="card">
-                    <img src="img/switch/Fireemblem.jpg" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">Fire Emblem</h5>
-                      <p class="card-text">$29.990</p>
-                      <div class="ajusteBoton">
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        
+                      <div class="card">
+                        <img src="img/switch/Fireemblem.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Fire Emblem</h5>
+                          <p class="card-text">$29.990</p>
+                          <div class="ajusteBoton">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                    
-                  <div class="card">
-                    <img src="img/switch/pokemonViolet.jpg" class="card-img-top">
-                    <div class="card-body">
-                      <h5 class="card-title">Pokémon Violet</h5>
-                      <p class="card-text">$35.990</p>
-                      <div class="ajusteBoton">
-                        <a href="#" class="btn btn-primary">Comprar</a>
+                        
+                      <div class="card">
+                        <img src="img/switch/pokemonViolet.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Pokémon Violet</h5>
+                          <p class="card-text">$35.990</p>
+                          <div class="ajusteBoton">
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                    
-                  
                   
                 
               </section>
-  </div>   
+  </div> 
   
   <footer>
     <section>
@@ -400,6 +405,3 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-
