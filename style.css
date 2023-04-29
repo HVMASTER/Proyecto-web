@@ -212,7 +212,7 @@
     width: 15%;
     background-color: #20b2aa;
     margin-left: 30px;
-    padding-right: 20px;
+    
 }   
 .contenedorJuegos{
 
@@ -222,10 +222,18 @@
 }
 
 .contenedorJuegos .card{
-    width: 22%;
-    margin-left: 3%;
+    width: 250px;
+    height: 30em;
+    margin: auto;
     margin-bottom: 30px;
     background-color: #20b2aa;
+}
+
+.ajusteBoton{
+    position: absolute;
+    top: 94%;
+    left: 24%;
+    transform: translate(-50%, -50%);
 }
 
 .fondo{
