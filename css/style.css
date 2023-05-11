@@ -452,3 +452,98 @@
 .hidden-cart{
     display: none;
 }
+
+.contenedorHeaderCreaUsuario{
+    background-color: rgb(51, 2, 63);
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.modTituloCreaUsuario{
+    display: inline-block;
+    display: flex;
+    margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 4em;
+
+}
+
+.backgroundBody{
+    background-color: rgb(60, 11, 100);
+}
+
+.contenedorbody{
+    display: flex;
+    display: inline-block;
+    width: 100%;
+}
+
+.contenedorCreaUsuario{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    align-items: center;
+}
+
+.contenedorParrafo{
+    width: 50%;
+    margin: 1%;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+.contenedorRegistro{
+    display: inline-block;
+    width: 26em;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 4%;
+    padding: 3%;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(87, 14, 204);
+    border: #000;
+    border-style: groove;
+}
+
+.contenedorAccede{
+    display: flex;
+}
+
+.largoFormControl{
+    width: 75%;
+    height: auto;
+}
+
+.largoForm{
+    width: 75%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.btn-crearCuenta{
+    background-color: yellow;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    width: 75%;
+}
