@@ -454,18 +454,17 @@
 }
 
 .contenedorHeaderCreaUsuario{
+    display: flex;
     background-color: rgb(51, 2, 63);
     padding-left: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
-    display: flex;
     align-items: center;
     text-align: center;
 }
 
 .modTituloCreaUsuario{
     display: inline-block;
-    display: flex;
     margin-right: 20%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -492,6 +491,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     align-items: center;
+
 }
 
 .contenedorParrafo{
@@ -546,4 +546,16 @@
     color: black;
     font-weight: bold;
     width: 75%;
+}
+
+.contenedorFooterCreaUsuario{
+    width: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.enlacesFooter{
+   margin-right: 3%;
+   display: inline-block;
+   color: white;
 }
