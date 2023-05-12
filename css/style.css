@@ -3,7 +3,7 @@
 }
 
 .DropdownBody{
-    background-color: #fbff2cae;
+    background-color: #ffc107;
     border:solid 1px rgb(0, 0, 0);
     
 }
@@ -42,6 +42,9 @@
     display: inline-block;
     display: flex;
     justify-content: center;
+    border: none;
+    outline: none;
+    font: weight 2px;;
     
 
 }
@@ -71,20 +74,13 @@
     
 }
 
-.textoBotonps5{
-    background-color: darkcyan;
-    border-color: black;   
-}
-
-.textoBotonxbox{
-    background-color: rgb(1, 104, 53);
-    border-color: black;  
-}
-
-.textoBotonswitch{
-    background-color: rgb(202, 40, 40);
+.textoBoton{
+    background-color: #ffc107;
     border-color: black; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
 }
+
 
 .textoH1Carrusel{
     text-align: center;
@@ -393,7 +389,7 @@
     position: absolute;
     top: 50px;
     right: 0;
-    background-color: #fff;
+    background-color: #f4e91e;
     width: 400px;
     z-index: 1;
     box-shadow: 0 10px 20px #000 rgba(0,0,0,0,20);
@@ -432,7 +428,7 @@
 
 }
 .cantidad-producto-carrito{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
 }
 .cart-total {
