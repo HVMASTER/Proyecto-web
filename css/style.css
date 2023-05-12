@@ -3,13 +3,13 @@
 }
 
 .DropdownBody{
-    background-color: darkcyan;
-    border:solid 1px black;
+    background-color: #fbff2cae;
+    border:solid 1px rgb(0, 0, 0);
     
 }
 
 .backgroundHeader{
-    background-color: lightseagreen;
+    background-color:#fbff2cd3;
     
 }
 
@@ -196,7 +196,7 @@
 .contenedorCateg{
     display: inline-block;
     display: flex;
-    background-color: lightseagreen;
+    background-color: #ffc107;
     padding-left: 5%;
     padding-right: 5%;
     transition: transform 0.3s;
@@ -207,8 +207,9 @@
 }
 
 .container{
-    background-color: lightseagreen;
+    background-color: #383838;
     border: 2px solid black;
+    color: #fff;
     margin: 0;
     padding: 0;
 
@@ -222,11 +223,11 @@
     font-style: italic;
     font-size: 3rem;
     text-decoration: underline;
-    color: black;
+    color: white;
 }
 
 .colorFondoCard{
-    background-color: darkcyan;
+    background-color: #ffc107 ;
 }
 
 .productos{
@@ -239,7 +240,7 @@
 .contenedorFiltro{
 
     width: 15%;
-    background-color: #20b2aa;
+    background-color: #ffc107 ;
     margin-left: 30px;
     
 }   
@@ -255,7 +256,8 @@
     height: 30em;
     margin: auto;
     margin-bottom: 30px;
-    background-color: #20b2aa;
+    color: #fff;
+    background-color: #383838;
 }
 
 .ajusteBoton{
@@ -266,7 +268,7 @@
 }
 
 .fondo{
-    background-color: #005c5c;
+    background-color: #ffc107;
 
 }
 
@@ -280,7 +282,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 2rem;
-    background-color: #20b2aa;
+    background-color: #ffc107 ;
     padding-left: 5%;
     padding-right: 5%;
     transition: transform 0.3s;
@@ -305,13 +307,13 @@
     width: 25%;
     height: auto;
     text-align: left;
-    background-color: #20b2aa;
-    color: white;
+    background-color: #ffc107 ;
+    color: black;
 }
 
 .contenedorFinalFooter{
     position: absolute;
-    background-color: darkcyan;
+    background-color: #ffc107 ;
     width: 100%;
 
     
