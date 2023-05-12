@@ -45,11 +45,47 @@
                             </div>
                           </li>
                         </ul>
+                        <div class="btn-group">
+                          <div class="contenedorBtnLogin">
+                              <button type="button" class="btn btn-iniciarsesion btn-lg font-weight-bold" data-toggle="modal" data-target="#staticBackdrop">
+                                Inicia sesion
+                              </button>
+                          </div>
+                        </div>
                       <form class="d-flex">
                         <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-success" type="submit">Buscar</button>
                       </form>
+                      <div class="container-icon">
+                        <div class="container-cart-icon">
+                                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                                  </svg>                                             
+                                <div class= "count-products">
+                                  <span id="contador-productos">0</span>  
+                                </div>
+                            </div>                    
+
+                      <div class="container-cart-products hidden-cart">
+                        <div class="row-product">
+                          <div class="cart-product"> 
+                            <div class ="info-cart-product">
+                              <span class="cantidad-producto-carrito">0</span>
+                              <p class="titulo-producto-carrito"></p>
+                              <span class="precio-producto-carrito">0</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                                                
+                          </div>
+                        </div>
+                        
+                      <div class="cart-total"><h3>Total</h3>
+                      <span class="total-pagar">$0</span></div>
+                      </div>
                     </div>
+                  </div>
                 </nav>
             </div>
         </div>
@@ -57,16 +93,15 @@
 </head>
 <body class="fondo">
   
-
     <div class="DropdownBody">
       <div class="contenedorBotones"> 
         <div class="contenedorBot2">
           <div class="btn-group">
             <div class="separadorBoton1">
-              <button type="button" class="btn btn-info dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="false">
+              <button type="button" class="btn btn-ps5 dropdown-toggle btn-lg border-0 font-weight-bold" data-toggle="dropdown" aria-expanded="false">
                 Ps5
               </button>
-                <div class="dropdown-menu textoBotonps5">
+                <div class="dropdown-menu textoBoton">
                   <a class="dropdown-item" href="ps5.html">Juegos fisicos</a>
                   <a class="dropdown-item" href="ps5digital.html">Juegos digitales</a>
                   <a class="dropdown-item" href="ps5dlc.html">DLC</a>
@@ -75,10 +110,10 @@
           </div>
           <div class="btn-group">
             <div class="separadorBoton1">
-              <button type="button" class="btn btn-success dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="false">
+              <button type="button" class="btn btn-xbox dropdown-toggle btn-lg border-0 font-weight-bold" data-toggle="dropdown" aria-expanded="false">
                 Xbox
               </button>
-              <div class="dropdown-menu textoBotonxbox">
+              <div class="dropdown-menu textoBoton">
                 <a class="dropdown-item" href="xbox_fisicos.html">Juegos fisicos</a>
                 <a class="dropdown-item" href="xbox_digital.html">Juegos digitales</a>
                 <a class="dropdown-item" href="xbox_dlc.html">DLC</a>
@@ -87,31 +122,18 @@
           </div>
           <div class="btn-group">
               <div class="separadorBoton1">
-                <button type="button" class="btn btn-danger dropdown-toggle btn-lg" data-toggle="dropdown" aria-expanded="true">
+                <button type="button" class="btn btn-switch dropdown-toggle btn-lg border-0 font-weight-bold" data-toggle="dropdown" aria-expanded="true">
                   Nintendo switch
                 </button>
-                <div class="dropdown-menu textoBotonswitch">
+                <div class="dropdown-menu textoBoton">
                   <a class="dropdown-item" href="Switch.html">Juegos fisicos</a>
                   <a class="dropdown-item" href="Switch_digital.html">Juegos digitales</a>
-                  <a class="dropdown-item" href="xbox_dlc.html">DLC</a>
+                  <a class="dropdown-item" href="Switch_dlc.html">DLC</a>
                 </div>
               </div>
           </div>
-        </div>
-        <div class="TamañoFlecha">
-          <img src="img/index/Flecha azul.gif" alt="">
-        
-        <div class="btn-group">
-          <div class="contenedorBtnLogin">
-            <div class="separadorBotonLogin">
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#staticBackdrop">
-                Inicia sesion
-              </button>
-            </div>
-          </div>
-        </div>
+        </div>     
       </div>
-</div>
                                   <!-- Modal -->
                                   <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                     <div class="modal-dialog">
