@@ -273,11 +273,10 @@
 }
 
 .contenedorEnlaces{
-    display: inline-block;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1em;
     background-color: #ffc107 ;
     padding-left: 5%;
     padding-right: 5%;
