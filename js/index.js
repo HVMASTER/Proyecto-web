@@ -103,3 +103,38 @@ const showHTML = () =>{
         
         
 }
+
+
+function validarFormularioRegistro() {
+  // Obtener los valores de email y contraseña
+  var email = document.getElementById('RegistroInputEmail').value;
+  var password = document.getElementById('RegistroInputPassword1').value;
+  
+  var confirmarpass = document.getElementById('RegistroInputPassword2').value;
+  
+  // Expresión regular para verificar el formato del email
+  var verificadorEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  // Expresión regular para verificar la contraseña
+  var verificadorPassword = /^(?=.*[0-9!@#$%^&*])(?=.*[a-zA-Z]).{8,}$/;
+
+  // Validar el email y la contraseña
+  if (!verificadorEmail.test(email)) {
+    alert('Por favor, ingresa un email válido.');
+    return;
+  }
+
+  if (!verificadorPassword.test(password)) {
+    alert('La contraseña debe tener al menos 8 caracteres y contener al menos un número o símbolo especial.');
+    return;
+  }
+
+  if (password !== confirmarpass) {
+    alert('Las contraseñas no coinciden. Por favor, ingresa las mismas contraseñas en ambos campos.');
+    return;
+  }
+
+  // Si la validación es exitosa.
+  alert('¡Usuario ingresado correctamente!');
+  window.location.href = 'index.html';
+}
