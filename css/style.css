@@ -245,6 +245,8 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start;
+
 }
 
 .contenedorJuegos .card{
@@ -254,6 +256,9 @@
     margin-bottom: 30px;
     color: #fff;
     background-color: #383838;
+
+    transition: all .4s;
+    
 }
 
 .ajusteBoton{
@@ -557,3 +562,20 @@
    display: inline-block;
    color: black;
 }
+
+.container .botonValor{
+    background-color: #f17908;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    width: 75%;
+    
+}
+
+.container .botonActivo{
+    background: #2D3E50;
+    color: whitesmoke;
+}
+
+
+

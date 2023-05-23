@@ -138,3 +138,44 @@ function validarFormularioRegistro() {
   alert('¡Usuario ingresado correctamente!');
   window.location.href = 'index.html';
 }
+
+$(document).ready(function(){
+  //agregando clase active
+  $('.container .botonValor[id="todos"]').addClass('botonActivo');
+
+  $('.botonValor').click(function(){
+    
+    //variable que almacene la id seleccionada
+    var cardId = $(this).attr('id');
+    console.log(cardId);
+    
+    //agregando clase active a item seleccionado
+    $('.botonValor').removeClass('botonActivo');
+    $(this).addClass('botonActivo');
+
+    //ocultando productos
+    $('.card').css('transform','scale(0)');
+    function ocultaProducto(){
+      $('.card').hide();
+    }setTimeout(ocultaProducto(),400);
+    
+
+    //mostrando productos
+    function mostrarProducto(){
+      $('.card[id="'+cardId+'"]').show();
+      $('.card[id="'+cardId+'"]').css('transform','scale(1)');
+      
+    }setTimeout(mostrarProducto(),400);
+    
+
+  });
+
+  $('.botonValor[id="todos"]').click(function(){
+    function mostrarTodo(){
+      $('.card').show();
+      $('.card').css('transform','scale(1)');
+    }setTimeout(mostrarTodo(),400);
+    
+  })
+});
+

@@ -145,54 +145,35 @@
         <div class="productos">
             <section class="contenedorFiltro d-none d-sm-none d-md-block" >
               <div class="container">
-                <h5>Disponibilidad</h5>
-                    <input type="checkbox" name="filtro_disp" id="disponible">
-                    <label for="disponible">Disponible</label><br>
-                    <input type="checkbox" name="filtro_disp" id="no_disponible">
-                    <label for="no_disponible">No Disponible</label><br>
-                    <input type="checkbox" name="filtro_disp" id="preventa">
-                    <label for="preventa">Preventa</label><br>
-                    <hr>
-                    <h5>Genero</h5>
-                    <input type="checkbox" name="solo" id="solo">
-                    <label for="solo">Solo Jugador</label><br>
-                    <input type="checkbox" name="multi" id="multi">
-                    <label for="multi">Multi Jugador</label><br>
-                    <input type="checkbox" name="1stp" id="1stp">
-                    <label for="1stp">Primera Persona</label><br>
-                    <input type="checkbox" name="accion" id="accion">
-                    <label for="accion">Accion</label><br>
-                    <input type="checkbox" name="aventura" id="aventura">
-                    <label for="aventura">Aventura</label><br>
-                    <input type="checkbox" name="casual" id="casual">
-                    <label for="casual">Casual</label><br>
-                    <input type="checkbox" name="fps" id="fps">
-                    <label for="fps">FPS</label><br>
-                    <input type="checkbox" name="estrategia" id="estrategia">
-                    <label for="estrategia">Estrategia</label><br>
-                    <input type="checkbox" name="rpg" id="rpg">
-                    <label for="rpg">RPG</label><br>
-                    <input type="checkbox" name="Plataforma" id="Plataforma">
-                    <label for="Plataforma">Plataforma</label><br>
-                    <input type="checkbox" name="Horro" id="Horro">
-                    <label for="Horro">Horro</label><br>
-                    <input type="checkbox" name="Deportes" id="Deportes">
-                    <label for="Deportes">Deportes</label><br>
-                    <input type="checkbox" name="Carreras" id="Carreras">
-                    <label for="Carreras">Carreras</label><br>
-                    <input type="checkbox" name="Lucha" id="Lucha">
-                    <label for="Lucha">Lucha</label><br>
-                    <input type="checkbox" name="Arcade" id="Arcade">
-                    <label for="Arcade">Arcade</label><br>
-                    <input type="checkbox" name="VR" id="VR">
-                    <label for="VR">VR</label><br>
-          
+                <h5>Categorias</h5>
+                <button class="botonValor" id="todos">Todos</button><br>
+                <button class="botonValor" id="solo">Solo Jugador</button><br>
+                <button class="botonValor" id="multi">Multi Jugador</button><br>
+                <button class="botonValor" id="1stp">Primera Persona</button><br>
+                <button class="botonValor" id="accion">Accion</button><br>
+                <button class="botonValor" id="aventura">Aventura</button><br>
+                <button class="botonValor" id="casual">Casual</button><br>
+                <button class="botonValor" id="fps">FPS</button><br>
+                <button class="botonValor" id="estrategia">Estrategia</button><br>
+                <button class="botonValor" id="rpg">RPG</button><br>
+                <button class="botonValor" id="plataforma">Plataforma</button><br>
+                <button class="botonValor" id="horror">Horror</button><br>
+                <button class="botonValor" id="deportes">Deportes</button><br>
+                <button class="botonValor" id="carrera">Carreras</button><br>
+                <button class="botonValor" id="lucha">Lucha</button><br>
+                <button class="botonValor" id="arcade">Arcade</button><br>
+                <button class="botonValor" id="vr">VR</button><br>
+                
+              </div>
+                
+                
+                
       
             </section>
             <!--Contenedores de los juegos-->
                 <div class="contenedorJuegos">
-                    <div class="card" >
-                      <img src="img/ps5/horizon.jpg" class="card-img-top" alt="...">
+                    <div class="card" id="solo">
+                      <img src="img/ps5/horizon.jpg" class="card-img-top">
                       <div class="card-body">
                         <h5 class="card-title">Horizon forbidden west</h5>
                         <p class="card-text">$59990</p>
@@ -203,7 +184,7 @@
                     </div>
                   
                               
-                    <div class="card">
+                    <div class="card" id="horror">
                       <img src="img/ps5/demonsouls.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Demon Souls remake</h5>
@@ -215,7 +196,7 @@
                     </div>
                   
                             
-                    <div class="card">
+                    <div class="card" id="accion">
                       <img src="img/ps5/godofwar.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">God of War Ragnarok </h5>
@@ -226,7 +207,7 @@
                       </div>
                     </div>
 
-                    <div class="card">
+                    <div class="card" id="deportes">
                       <img src="img/ps5/granturismo.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Gran Turismo 7 </h5>
@@ -236,7 +217,7 @@
                         <!--</div>-->
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="lucha">
                       <img src="img/ps5/mk11ultimate.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Mortal Kombat 11 ultimate </h5>
@@ -246,7 +227,7 @@
                         <!--</div>-->
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="1stp">
                       <img src="img/ps5/cyberpunk2077.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">CyberPunk 2077 </h5>
@@ -256,7 +237,7 @@
                         <!--</div>-->
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="aventura">
                       <img src="img/ps5/stray.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Stray </h5>
@@ -266,7 +247,7 @@
                         <!--</div>-->
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card" id="horror">
                       <img src="img/ps5/residentevil4.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Resident Evil 4 </h5>
