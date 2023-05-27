@@ -162,8 +162,8 @@ $(document).ready(function(){
 
     //mostrando productos
     function mostrarProducto(){
-      $('.card[id="'+cardId+'"]').show();
-      $('.card[id="'+cardId+'"]').css('transform','scale(1)');
+      $('.'+cardId+'').show();
+      $('.'+cardId+'').css('transform','scale(1)');
       
     }setTimeout(mostrarProducto(),400);
     
