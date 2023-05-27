@@ -261,7 +261,7 @@
     
 }
 
-.ajusteBoton{
+.btn-add-cart{
     position: absolute;
     top: 94%;
     left: 24%;
@@ -577,5 +577,11 @@
     color: whitesmoke;
 }
 
-
+.btn-add-cart{
+    background-color: #f17908;
+    border-style: groove;
+    border-bottom-left-radius: 10%;
+    font-weight: bold;
+    box-shadow: 0px 5px 8px rgba(17, 6, 6, 0.4);   
+}
 
